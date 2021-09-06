@@ -16,8 +16,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <form>
+            <div class="form-group" style="width: 180px; text-align: center">
             <h1>Login</h1>
-            <div class="form-group">
                 <label for="userID">Usuario</label>
                 <input type="user" class="form-control" id="userID" placeholder="Ingrese su usuario">
             </div>
