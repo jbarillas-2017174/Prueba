@@ -17,15 +17,18 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <form>
             <div class="form-group" style="width: 180px; text-align: center">
-            <h1>Login</h1>
-                <label for="userID">Usuario</label>
-                <input type="user" class="form-control" id="userID" placeholder="Ingrese su usuario">
+                <div>
+                    <h1>Login</h1>
+                    <label for="userID">Usuario</label>
+                    <input type="user" class="form-control" id="userID" placeholder="Ingrese su usuario">
+
+                </div>
+                <div>
+                    <label for="password1">Contraseña</label>
+                    <input type="password" class="form-control" id="password1" placeholder="Contraseña">
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
             </div>
-            <div class="form-group">
-                <label for="password1">Contraseña</label>
-                <input type="password" class="form-control" id="password1" placeholder="Contraseña">
-            </div>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
         </form>
     </body>
 </html>
