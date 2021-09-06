@@ -16,7 +16,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <form>
-            <div class="form-group" style="width: 180px; text-align: center">
+            <div class="form-group" style="width: 300px;text-align: center; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); padding: 40px 20px 40px 20px; margin: 0 auto">
                 <div>
                     <h1>Login</h1>
                     <label for="userID">Usuario</label>
@@ -25,7 +25,7 @@
                 </div>
                 <div>
                     <label for="password1">Contraseña</label>
-                    <input type="password" class="form-control" id="password1" placeholder="Contraseña">
+                    <input type="password" class="form-control" id="password1" placeholder="Contraseña"><br>
                 </div>
                 <button type="submit" class="btn btn-primary">Ingresar</button>
             </div>
