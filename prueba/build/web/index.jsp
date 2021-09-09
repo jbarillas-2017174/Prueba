@@ -18,10 +18,10 @@
         <style>
         </style>
         <form>
-            <div class="form-group" style="width: 300px;text-align: center; padding: 40px 20px 40px 20px; margin: 0 auto; top: 100px; position: relative; color: #fff; border: 1px solid #fff">
-                <h1>Login</h1>
+            <div class="form-group" style="width: 400px;text-align: center; padding: 0 20px 40px 20px; margin: 0 auto; top: 100px; position: relative; border: 2px solid #fff">
+                <h1 style="background: rgba(255,255,255,0.5); color: #bdc7d2; padding: 0 0 5px 0; width: 398px; left: 0; position: absolute">Login</h1>
                 <div style="color: #fff; text-align: left;">
-                    <label for="userID">Usuario</label>
+                    <br><br><br><label for="userID">Usuario</label>
                     <input type="user" class="form-control" id="userID" placeholder="Ingrese su usuario">
                 </div>
                 <div style="color: #fff ;text-align: left;">
